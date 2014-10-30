@@ -1,0 +1,32 @@
+body
+{
+    background-color: pink;
+}
+
+img
+{
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+img:hover {
+    transform: rotate(360deg);
+}
+#greeting {
+    color:red;
+    text-align: center;
+}
+#main_image {
+	text-align: center;
+width: 100%;
+
+
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ li {
+    display: inline;
+}
