@@ -1,0 +1,28 @@
+body{
+	 background-image:url("http://www.sheepscotgeneral.com/wp-content/uploads/2013/10/Light-Wood-Background-Wallpaper.jpg");
+
+
+
+
+}
+#header {
+	text-align: center;
+}
+
+#hello_message {
+	color: blue;
+}
+
+#content {
+	text-align: center;
+	width: 40%;
+	margin: auto;
+
+	/* add a nice frame for your content */
+	
+}
+
+#footer {
+	text-align: center;
+}
+

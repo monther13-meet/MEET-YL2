@@ -1,0 +1,60 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my page: Tigers</title>
+</head>
+<body>
+	<!-- HEADER -->
+	<div id="header">
+		<h1 id="hello_message">Welcome to my new page!</h1>
+	</div>
+
+	<!-- CONTENT -->
+	<div id="content">
+		<p>Hi!</p>
+		<p>My name is Monther and this is my  <strong>NEW</strong> page.</p>
+		<p>I like CS and physics, I play three instruments and I'm in mawwal crew for dabkeh.</p>
+		<img src="{% static 'polls/jennifer.jpg' %}">
+		<p>MY FAVOURITE ANIMAL IS TIGER,You CAN FUND MORE PICTURES OF TIGERS ON THIS LINK:</p>
+			<a href="https://www.google.co.il/search?q=TIGERS&hl=en&biw=1855&bih=985&source=lnms&tbm=isch&sa=X&ei=5MOJVK7mHI_W7Qb424GABQ&ved=0CAYQ_AUoAQ">TIGERS</a><br/><br/>
+			<a href="http://www.w3schools.com/">W3School for help with HTML and CSS</a><br/><br/>
+			<a href="http://bit.ly/1DbBbaj">This mysterious link</a><br/><br/>
+			<a href="http://www.w3schools.com/html/html_youtube.asp">Embed a YouTube video</a><br/><br/>
+			<a href="http://www.jssor.com/index.html">Make a pictures slideshow</a><br/><br/>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/zhZikvuTVaw" frameborder="0" allowfullscreen></iframe> 
+			<iframe width="0" height="0" src="//www.youtube.com/embed/yfUdn8AtwSw?autoplay=1" frameborder="0" allowfullscreen></iframe><br><br><br>
+			<script type="text/javascript">
+			var image1 = new Image()
+			image1.src = "/static/polls/images.jpg"
+			var image2 = new Image()
+			image2.src = "/static/polls/index.jpg"
+			var image3 = new Image()
+			image3.src = "/static/polls/imagess.jpg"
+			var image4 = new Image()
+			image4.src = "/static/polls/jennifer.jpg"
+			</script>
+			<p><img src="images/pentagg.jpg" width="500" height="300" name="slide" /></p>
+			<script type="text/javascript">
+        			var step=1;
+        			function slideit()
+        			{
+            			document.images.slide.src = eval("image"+step+".src");
+            			if(step<4)
+                			step++;
+            			else
+                			step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+		</script>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer">
+		<h2>Good luck!</h2>
+	</div>
+
+</body>
+</html>
